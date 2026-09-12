@@ -19,14 +19,14 @@ const checks = [
     icon: "local_police",
     iconClass: "text-on-tertiary-container",
     title: "Stolen Vehicle Check",
-    body: "Live Police National Computer (PNC) interrogation. Prevent the risk of asset seizure by law enforcement upon purchase.",
+    body: "Live Police National Computer (PNC) interrogation. Confirm no stolen marker exists before you list or hand over the keys.",
     link: "PNC Database Direct",
   },
   {
     icon: "payments",
     iconClass: "text-secondary",
     title: "Outstanding Finance",
-    body: "Uncovers active Hire Purchase (HP) or PCP lender debt with Experian and Equifax flags. Don't inherit someone else's loan.",
+    body: "Uncovers active Hire Purchase (HP) or PCP lender debt with Experian and Equifax flags. Disclose finance still on the title before you sell.",
     link: "Experian Credit Scan",
   },
 ];

@@ -35,11 +35,12 @@ export function AboutCta() {
               </span>
             </div>
             <h2 className="font-headline-xl text-headline-xl text-on-primary tracking-tight">
-              Ready to inspect your next car?
+              Ready to list your car with proof?
             </h2>
             <p className="font-body-lg text-body-lg text-surface-dim max-w-lg">
-              Don&apos;t risk purchasing hidden finance, a Category S write-off,
-              or a clocked mileage record. Enter any UK registration plate below.
+              Don&apos;t list with hidden finance, a Category S write-off, or
+              an undocumented mileage record. Enter any UK registration plate
+              below.
             </p>
             <div className="flex flex-wrap items-center gap-space-md pt-space-2xs text-surface-dim font-body-sm text-body-sm">
               <div className="flex items-center gap-1">

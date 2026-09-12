@@ -12,7 +12,7 @@ const points = [
     icon: "enhanced_encryption",
     iconClass: "text-on-tertiary-container",
     title: "Bank-Grade 256-bit TLS Encryption",
-    body: "All buyer searches, payments, and generated vehicle certificates are protected through zero-knowledge cryptographic safeguards.",
+    body: "All seller searches, payments, and generated vehicle certificates are protected through zero-knowledge cryptographic safeguards.",
   },
   {
     icon: "security",
@@ -56,7 +56,7 @@ export function Engineering() {
               Engineering Credibility
             </span>
             <h2 className="font-headline-xl text-headline-xl text-primary leading-tight">
-              Institutional standards for every private car buyer.
+              Institutional standards for every private car seller.
             </h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">
               AuthorizeCheck does not rely on third-party resale brokers. We

@@ -34,9 +34,9 @@ export function AboutHero() {
               <span className="text-secondary">UK Vehicle Intelligence</span>
             </h1>
             <p className="font-body-xl text-body-xl text-on-surface-variant max-w-2xl">
-              Empowering British car buyers, sellers, and motor finance
-              underwriters with unfiltered vehicle history, forensic data
-              cross-referencing, and complete peace of mind.
+              Empowering British car sellers, registered owners, and motor
+              finance underwriters with unfiltered vehicle history, forensic
+              data cross-referencing, and complete peace of mind.
             </p>
           </div>
           <div className="lg:col-span-4 flex lg:justify-end">

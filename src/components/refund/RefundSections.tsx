@@ -59,10 +59,11 @@ export function RefundSections() {
           Overview &amp; Institutional Commitment
         </h2>
         <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-          At AuthorizeCheck, we understand that purchasing a pre-owned vehicle
-          involves significant financial exposure. Our mission is to deliver
-          unequivocal clarity via authentic DVLA, MIAFTR (write-off and stolen
-          records), and Experian-backed automotive finance registers.
+          At AuthorizeCheck, we understand that listing a pre-owned vehicle
+          involves significant disclosure and financial exposure. Our mission
+          is to deliver unequivocal clarity via authentic DVLA, MIAFTR
+          (write-off and stolen records), and Experian-backed automotive
+          finance registers.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md pt-space-xs">
           <div className="p-space-md rounded-lg bg-surface-container-low flex flex-col gap-space-xs">

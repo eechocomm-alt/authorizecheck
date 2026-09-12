@@ -153,8 +153,8 @@ export function PrivacySections() {
               </span>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
                 Generating and delivering comprehensive multi-point history
-                reports to your verified email address within 3–4 hours of
-                purchasing a vehicle check.
+                reports to the registered owner or seller&apos;s verified email
+                address within 3–4 hours of purchasing a vehicle check.
               </span>
             </div>
           </div>
@@ -403,6 +403,34 @@ export function PrivacySections() {
             <span className="font-body-sm text-body-sm text-on-surface-variant">
               Direct Stripe processing. We never store raw card numbers.
             </span>
+          </div>
+        </div>
+        <div className="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+          <span className="material-symbols-outlined text-on-tertiary-container text-[24px] shrink-0 mt-0.5">
+            verified_user
+          </span>
+          <div className="flex flex-col gap-1">
+            <span className="font-headline-sm text-headline-sm text-on-surface">
+              Reports issued only to the registered owner or seller
+            </span>
+            <div className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed flex flex-col gap-space-xs">
+              <p>
+                For security and privacy reasons, we only provide the vehicle
+                details report to the registered owner of the vehicle. This
+                policy helps protect owners from scammers who may attempt to
+                obtain or misuse their personal information.
+              </p>
+              <p>
+                Once a payment is made, we verify that you are the registered
+                owner. If the ownership cannot be verified, the payment will
+                be declined or refunded.
+              </p>
+              <p>
+                Your privacy and security are our top priorities, and our
+                platform uses strict security measures to protect your
+                information.
+              </p>
+            </div>
           </div>
         </div>
       </article>

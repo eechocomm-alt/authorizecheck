@@ -35,7 +35,7 @@ export function TermsSections() {
             If you do not accept these terms in full without modification, you
             must immediately terminate use of our services. These terms
             constitute an enforceable digital contract between you (“User”,
-            “Buyer”, or “Commercial Partner”) and{" "}
+            “Seller”, or “Commercial Partner”) and{" "}
             <strong className="text-on-surface">AuthorizeCheck Ltd</strong>{" "}
             (Company Registration No. 14285910), incorporated under the
             Companies Act 2006 of England and Wales.
@@ -171,8 +171,8 @@ export function TermsSections() {
           <ul className="list-disc pl-space-lg flex flex-col gap-space-xs text-on-surface">
             <li>
               You possess a lawful, legitimate interest in performing a vehicle
-              history search (e.g., prospective buyer, registered owner,
-              insurance provider, or qualified motor trader).
+              history search (e.g., registered owner, seller, insurance
+              provider, or qualified motor trader).
             </li>
             <li>
               You will not employ automated web-crawlers, bots, headless
@@ -315,7 +315,7 @@ export function TermsSections() {
         <div className="flex flex-col gap-space-md font-body-lg text-body-lg text-inverse-on-surface leading-relaxed">
           <p>
             To provide categorical peace of mind for UK motorists and trade
-            buyers, every{" "}
+            sellers, every{" "}
             <strong className="text-on-primary">
               Comprehensive Vehicle Audit
             </strong>{" "}

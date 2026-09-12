@@ -63,7 +63,8 @@ export function Hero() {
         <p className="font-body-xl text-body-xl text-primary-fixed-dim max-w-2xl mb-space-2xl">
           Mileage discrepancies, MOT history, accident write-off records (Cat
           S/N/C/D), outstanding finance, stolen vehicle flags, and legal status
-          before you buy. Your report is emailed within 3–4 hours.
+          before you list or hand over the keys. Your report is emailed within
+          3–4 hours.
         </p>
         <div className="w-full max-w-2xl bg-surface-container-lowest p-space-sm rounded-xl shadow-xl">
           <form

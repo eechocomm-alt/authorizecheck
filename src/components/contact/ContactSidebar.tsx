@@ -216,7 +216,7 @@ export function ContactSidebar() {
           </h3>
         </div>
         <p className="font-body-sm text-body-sm text-on-surface-variant">
-          Skip the queue. Over 85% of buyer questions are covered in our
+          Skip the queue. Over 85% of seller questions are covered in our
           real-time vehicle intelligence guides:
         </p>
         <ul className="flex flex-col gap-space-2xs mt-space-2xs">

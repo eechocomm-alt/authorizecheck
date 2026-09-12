@@ -3,7 +3,7 @@ const reasons = [
     icon: "currency_pound",
     iconClass: "text-secondary",
     title: "Transparent Pricing",
-    body: "Zero hidden recurring monthly club subscriptions. Pay one time for the car you are inspecting with zero fine print traps.",
+    body: "Zero hidden recurring monthly club subscriptions. Pay one time for the car you are listing with zero fine print traps.",
   },
   {
     icon: "photo_camera",
@@ -37,7 +37,7 @@ export function WhyChoose() {
             Why Choose AuthorizeCheck
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            Built for motor buyers who refuse to gamble.
+            Built for private sellers and dealers who refuse to list blind.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">

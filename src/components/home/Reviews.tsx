@@ -14,11 +14,11 @@ const reviews = [
   {
     tag: { icon: "car_crash", label: "CAT S WRITE-OFF", className: "bg-error-container text-error" },
     plate: { text: "VW GOLF", className: "bg-[#FFD200] text-black" },
-    savings: { text: "SAVED £11,000", className: "bg-tertiary-container text-tertiary-fixed" },
-    title: "“Uncovered total loss hidden by seller”",
-    body: "Saved me from an £11,000 catastrophe. The seller claimed clean title, but after I purchased a vehicle check, AuthorizeCheck pulled archival Copart photos showing severe rear crumple and deployed curtain airbags.",
+    savings: { text: "LISTED WITH PROOF", className: "bg-tertiary-container text-tertiary-fixed" },
+    title: "“Disclosed a historic write-off before listing”",
+    body: "I purchased a vehicle check before listing my Golf. AuthorizeCheck pulled archival Copart photos showing a historic rear impact. I disclosed it upfront and sold without a later dispute.",
     meta: { icon: "photo_camera", label: "Salvage Record #CP-849200", badge: "MIAFTR Direct", badgeClass: "text-on-tertiary-container" },
-    author: { initials: "MT", name: "Marcus T.", sub: "Manchester • Verified Buyer", avatar: "bg-primary text-white" },
+    author: { initials: "MT", name: "Marcus T.", sub: "Manchester • Verified Seller", avatar: "bg-primary text-white" },
     when: "2 days ago",
     featured: true,
   },
@@ -26,19 +26,19 @@ const reviews = [
     tag: { icon: "payments", label: "FINANCE ALERT", className: "bg-secondary-fixed text-secondary" },
     plate: { text: "BMW 320D", className: "bg-surface-container text-on-surface" },
     savings: { text: "£4,200 CLEARED", className: "bg-on-tertiary-container/10 text-on-tertiary-container" },
-    title: "“Uncovered active PCP finance debt”",
-    body: "“Discovered £4,200 of outstanding PCP finance with Black Horse. The dealership apologized profusely and cleared the balance with the lender right there before I signed the transfer.”",
+    title: "“Cleared leftover PCP before I advertised”",
+    body: "“The report flagged £4,200 of outstanding PCP with Black Horse. I settled the lender before listing so the title was clean when the first viewer arrived.”",
     meta: { icon: "verified", label: "Experian Credit Scanner", badge: "Settled Instantly", badgeClass: "text-secondary" },
     author: { initials: "SL", name: "Sarah L.", sub: "Bristol • Finance Scan", avatar: "bg-secondary-container text-white" },
     when: "4 days ago",
   },
   {
-    tag: { icon: "speed", label: "ROLLBACK DETECTED", className: "bg-error-container text-error" },
+    tag: { icon: "speed", label: "MILEAGE VERIFIED", className: "bg-error-container text-error" },
     plate: { text: "FORD FOCUS", className: "bg-surface-container text-on-surface" },
-    savings: { text: "-41,000 MILES", className: "bg-error-container text-error" },
-    title: "“Clocked odometer flagged right away”",
-    body: "“Mileage rollback alert fired instantly. Odometer on the dash read 48,000 mi, but AuthorizeCheck’s MOT log showed 89,000 mi logged two years prior. Walked away immediately.”",
-    meta: { icon: "timeline", label: "DVSA MOT Historic Audit", badge: "Mileage Fraud", badgeClass: "text-error" },
+    savings: { text: "MOT MATCHED", className: "bg-error-container text-error" },
+    title: "“Proved my mileage against the MOT log”",
+    body: "“Viewers always ask about clocking. I ran a check first and handed them the MOT mileage trajectory. The listing sold faster because the odometer was documented.”",
+    meta: { icon: "timeline", label: "DVSA MOT Historic Audit", badge: "Mileage Verified", badgeClass: "text-error" },
     author: { initials: "DK", name: "David K.", sub: "Leeds • MOT Timeline", avatar: "bg-tertiary-container text-tertiary-fixed" },
     when: "1 week ago",
   },
@@ -53,13 +53,13 @@ const reviews = [
     when: "2 weeks ago",
   },
   {
-    tag: { icon: "speed", label: "ROADSIDE SCAN", className: "bg-on-tertiary-container/10 text-on-tertiary-container" },
+    tag: { icon: "speed", label: "LISTING SCAN", className: "bg-on-tertiary-container/10 text-on-tertiary-container" },
     plate: { text: "NISSAN QASHQAI", className: "bg-surface-container text-on-surface" },
     savings: { text: "IN 3–4 HOURS", className: "bg-tertiary-container text-tertiary-fixed" },
-    title: "“Super clean interface right on my phone”",
-    body: "“I purchased a vehicle check from my phone in the seller's driveway. The PDF report arrived in my inbox within 3–4 hours. Super clean interface, easy to read on mobile, and completely reassuring.”",
+    title: "“Ran the check from my phone before listing”",
+    body: "“I purchased a vehicle check from my phone before I posted the ad. The PDF report arrived in my inbox within 3–4 hours. Super clean interface, easy to share, and completely reassuring.”",
     meta: { icon: "smartphone", label: "Mobile Check Purchase", badge: "100% Insured", badgeClass: "text-on-tertiary-container" },
-    author: { initials: "ER", name: "Elena R.", sub: "Edinburgh • Roadside Check", avatar: "bg-surface-container text-on-surface" },
+    author: { initials: "ER", name: "Elena R.", sub: "Edinburgh • Seller Check", avatar: "bg-surface-container text-on-surface" },
     when: "3 weeks ago",
   },
 ];
@@ -102,14 +102,14 @@ export function Reviews() {
             >
               verified
             </span>
-            <span>Verified Buyer Protection &amp; Due Diligence</span>
+            <span>Verified Seller Protection &amp; Due Diligence</span>
           </div>
           <h2 className="font-headline-xl text-headline-xl text-on-surface tracking-tight">
-            Real Reviews from Savvy Buyers
+            Real Reviews from Trusted Sellers
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            Discover how AuthorizeCheck saved everyday drivers from costly
-            write-offs, hidden PCP debt, and clocked odometers.
+            Discover how AuthorizeCheck helps sellers disclose history, clear
+            finance, and sell with documented proof.
           </p>
         </div>
 
@@ -150,7 +150,7 @@ export function Reviews() {
                 Recommendation Rate
               </span>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
-                Independent buyer survey
+                Independent seller survey
               </span>
             </div>
             <div className="flex flex-col items-center justify-center p-space-xs text-center pt-space-sm md:pt-0">

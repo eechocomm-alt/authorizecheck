@@ -22,7 +22,7 @@ const team = [
   {
     name: "Eleanor Sterling",
     role: "Head of Consumer Advocacy",
-    bio: "UK trading standards and motor fraud investigator with 14 years supporting British vehicle purchasers in dispute resolution and salvage identification.",
+    bio: "UK trading standards and motor fraud investigator with 14 years supporting British vehicle sellers in dispute resolution and salvage identification.",
     badgeIcon: "gavel",
     badge: "Chartered Trading Standards",
     image:

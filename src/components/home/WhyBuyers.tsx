@@ -1,28 +1,28 @@
 const buyerItems = [
   {
     icon: "verified",
-    title: "Hidden structural damage detection",
-    body: "Spot unrecorded frame damage and poorly executed cosmetic patchwork before buying.",
+    title: "Prove no hidden structural damage",
+    body: "Show viewers unrecorded frame damage and cosmetic patchwork have been checked before you list.",
   },
   {
     icon: "history",
-    title: "V5C ownership logs & plate change timeline",
-    body: "Trace full keeper durations and identify rapid churn or cloned plate switches.",
+    title: "Show a full V5C / keeper timeline",
+    body: "Share keeper durations and plate-change history so viewers trust the ownership story.",
   },
   {
     icon: "speed",
-    title: "MOT history & verified mileage rollback alerts",
-    body: "Full MOT pass/fail records with itemized technician advisories and clocking flags.",
+    title: "Share MOT history and verified mileage",
+    body: "Present full MOT pass/fail records with technician advisories and clocking flags.",
   },
   {
     icon: "analytics",
-    title: "Real-time market valuation calculator",
-    body: "See private trade-in and forecourt dealer values tailored to current UK market demand.",
+    title: "Back your asking price with live valuation",
+    body: "Support private and dealer asking prices with current UK market values.",
   },
   {
     icon: "security",
-    title: "Scam and clone vehicle prevention",
-    body: "Ensure the chassis VIN matches national records, preventing legal seizure.",
+    title: "Confirm VIN match for listing trust",
+    body: "Prove the chassis VIN matches national records so viewers trust the listing.",
   },
 ];
 
@@ -39,17 +39,29 @@ export function WhyBuyers() {
       <div className="max-w-[1240px] mx-auto px-gutter-desktop grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
         <div className="lg:col-span-6 flex flex-col">
           <span className="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider">
-            Buyer Protection Shield
+            Owner-Only Report Delivery
           </span>
           <h2 className="font-headline-xl text-headline-xl text-on-surface mt-space-2xs tracking-tight">
-            Why Buyers Choose a Vehicle Check
+            Why Sellers Choose a Vehicle Check
           </h2>
-          <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-sm mb-space-lg">
-            Over 1 in 3 used cars in the UK carry a hidden story—from clocked
-            odometers to severe collision write-offs. Purchase a vehicle check
-            and receive your full report by email within 3–4 hours, so you can
-            negotiate from strength or walk away.
-          </p>
+          <div className="font-body-lg text-body-lg text-on-surface-variant mt-space-sm mb-space-lg flex flex-col gap-space-sm">
+            <p>
+              For security and privacy reasons, we only provide the vehicle
+              details report to the registered owner of the vehicle. This
+              policy helps protect owners from scammers who may attempt to
+              obtain or misuse their personal information.
+            </p>
+            <p>
+              Once a payment is made, we verify that you are the registered
+              owner. If the ownership cannot be verified, the payment will be
+              declined or refunded.
+            </p>
+            <p>
+              Your privacy and security are our top priorities, and our
+              platform uses strict security measures to protect your
+              information.
+            </p>
+          </div>
           <ul className="flex flex-col gap-space-sm">
             {buyerItems.map((item) => (
               <li

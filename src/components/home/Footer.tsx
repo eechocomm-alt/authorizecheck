@@ -16,8 +16,8 @@ export function Footer() {
             </Link>
             <p className="font-body-md text-body-md text-on-surface-variant max-w-sm">
               The UK&apos;s trusted vehicle intelligence platform providing
-              MOT, finance, write-off, and mileage checks before you buy or
-              sell. You purchase a vehicle check; your report is emailed within
+              MOT, finance, write-off, and mileage checks before you sell.
+              You purchase a vehicle check; your report is emailed within
               3–4 hours.
             </p>
             <div className="flex flex-wrap items-center gap-space-xs pt-space-xs">

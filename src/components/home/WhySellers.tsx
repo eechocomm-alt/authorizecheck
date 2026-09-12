@@ -6,7 +6,7 @@ const sellerBenefits = [
   },
   {
     icon: "handshake",
-    title: "Attract Serious Buyers",
+    title: "Attract Serious Enquiries",
     body: "Filter out timewasters with documented transparency that answers questions before they are asked.",
   },
   {
@@ -71,7 +71,7 @@ export function WhySellers() {
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-sm mb-space-lg">
             Sellers purchase a vehicle check — not a report — to prove honesty
-            upfront. Your full report is emailed within 3–4 hours, so buyers
+            upfront. Your full report is emailed within 3–4 hours, so viewers
             can review verified history before they visit.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-md">

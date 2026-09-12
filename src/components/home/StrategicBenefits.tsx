@@ -2,32 +2,32 @@ const benefits = [
   {
     icon: "warning",
     iconWrap: "bg-error-container text-error",
-    title: "Avoid Costly Surprises",
-    body: "Save thousands on unrecorded hidden gearbox failures, flooded electrics, or frame structural cut-and-shuts.",
+    title: "Disclose Hidden History",
+    body: "Surface unrecorded gearbox failures, flooded electrics, or frame structural cut-and-shuts before you list.",
     accent: "text-error",
-    accentLabel: "Prevent £3,500+ Avg Repairs",
+    accentLabel: "Avoid Costly Listing Disputes",
   },
   {
     icon: "balance",
     iconWrap: "bg-secondary-fixed text-secondary",
-    title: "Negotiate with Confidence",
-    body: "Leverage past MOT failure advisories (brake wear, suspension bushes, tyre degradation) to secure major cash discounts.",
+    title: "Justify Your Asking Price",
+    body: "Use clean MOT runs, service records, and advisory history to defend your price with documented proof.",
     accent: "text-secondary",
-    accentLabel: "Sovereign Bargaining Power",
+    accentLabel: "Documented Price Support",
   },
   {
     icon: "gavel",
     iconWrap: "bg-surface-container text-on-tertiary-container",
-    title: "Protect Yourself Legally",
-    body: "Eliminate repossession risk. If an active loan is unpaid, banks retain legal ownership and can seize your car.",
+    title: "Stay Legally Clear on Finance",
+    body: "Confirm no unpaid lender still holds title. Outstanding finance can block a sale and leave you liable.",
     accent: "text-on-tertiary-container",
-    accentLabel: "100% Title Guarantee",
+    accentLabel: "100% Title Clarity",
   },
   {
     icon: "trending_up",
     iconWrap: "bg-surface-container-high text-secondary-container",
-    title: "Make Smarter Investments",
-    body: "Review depreciation forecasts, tax band adjustments, and residual valuations to safeguard resale equity.",
+    title: "Protect Resale Value",
+    body: "Review depreciation forecasts, tax band adjustments, and residual valuations to support a confident sale.",
     accent: "text-secondary-container",
     accentLabel: "5-Year Equity Forecasting",
   },
@@ -42,11 +42,11 @@ export function StrategicBenefits() {
             Uncompromising Clarity
           </span>
           <h2 className="font-headline-xl text-headline-xl text-on-surface mt-space-2xs tracking-tight">
-            Strategic Buyer Benefits
+            Strategic Seller Benefits
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            Never buy blind. Our institutional audits insulate you from severe
-            mechanical liabilities and legal forfeitures.
+            Never list blind. Our institutional audits help you disclose
+            history, justify price, and stay clear on finance.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
