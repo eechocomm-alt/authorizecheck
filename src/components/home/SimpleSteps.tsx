@@ -3,19 +3,19 @@ const steps = [
     num: "01",
     numClass: "bg-secondary text-white",
     title: "Enter Registration",
-    body: "Input any active UK number plate. We instantly pull basic specs to confirm make, model, and engine variant.",
+    body: "Input any active UK number plate to start your vehicle check. We confirm the registration before you purchase.",
   },
   {
     num: "02",
     numClass: "bg-secondary-container text-white",
-    title: "Instant Data Scan",
-    body: "Our automated engine cross-checks 80+ official UK databases: DVLA, PNC, MIAFTR, and credit finance registers in under 3 seconds.",
+    title: "Purchase a Vehicle Check",
+    body: "Choose Basic or Full Comprehensive. You are buying a vehicle check; the compiled report follows by email.",
   },
   {
     num: "03",
     numClass: "bg-tertiary-container text-tertiary-fixed",
-    title: "Download Vehicle Report",
-    body: "Receive your comprehensive PDF and mobile interactive report instantly with a £40,000 data guarantee.",
+    title: "Receive Your Report",
+    body: "Your comprehensive PDF report is emailed within 3–4 hours, backed by a £40,000 data guarantee.",
   },
 ];
 
@@ -31,7 +31,7 @@ export function SimpleSteps() {
             3 Simple Steps to Clarity
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            From registration lookup to forensic vehicle dossiers in seconds.
+            From registration lookup to a full vehicle report in 3–4 hours.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-space-xl relative">

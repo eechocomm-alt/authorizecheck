@@ -42,12 +42,13 @@ export function WhyBuyers() {
             Buyer Protection Shield
           </span>
           <h2 className="font-headline-xl text-headline-xl text-on-surface mt-space-2xs tracking-tight">
-            Why Buyers Choose a History Report
+            Why Buyers Choose a Vehicle Check
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-sm mb-space-lg">
             Over 1 in 3 used cars in the UK carry a hidden story—from clocked
-            odometers to severe collision write-offs. We arm you with sovereign
-            data so you can negotiate from strength or walk away.
+            odometers to severe collision write-offs. Purchase a vehicle check
+            and receive your full report by email within 3–4 hours, so you can
+            negotiate from strength or walk away.
           </p>
           <ul className="flex flex-col gap-space-sm">
             {buyerItems.map((item) => (

@@ -43,8 +43,9 @@ export function WhatWeCheck() {
             What We Check For You
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            We aggregate records from 80+ state and automotive databases to
-            expose hidden vehicle flaws in under 3 seconds.
+            We aggregate records from 80+ state and automotive databases. You
+            purchase a vehicle check; your full report is emailed within 3–4
+            hours.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">

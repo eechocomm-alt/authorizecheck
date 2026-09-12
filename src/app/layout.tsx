@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AuthorizeCheck — UK Vehicle History Reports",
   description:
-    "Check any car's history by registration number. Instant mileage, MOT, write-off, finance, and stolen vehicle checks from official UK data sources.",
+    "Purchase a vehicle check by registration number. Mileage, MOT, write-off, finance, and stolen vehicle checks from official UK data sources. Your report is emailed within 3–4 hours.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

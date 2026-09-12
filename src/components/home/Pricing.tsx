@@ -73,8 +73,8 @@ export function Pricing() {
             Select Your Inspection Tier
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            No monthly commitments. Instant PDF download and permanent online
-            dashboard storage.
+            No monthly commitments. You purchase a vehicle check; your report
+            is emailed within 3–4 hours.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-space-xl items-stretch">
@@ -177,7 +177,7 @@ export function Pricing() {
               className="mt-space-xl w-full py-space-sm rounded-lg bg-secondary-container hover:bg-secondary text-white font-label-lg text-label-lg font-bold text-center block shadow-lg hover:shadow-xl transition-all"
               href="/checkout?plan=full"
             >
-              Buy Full Report Now
+              Buy Full Check Now
             </Link>
           </div>
         </div>

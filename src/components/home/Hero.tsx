@@ -1,11 +1,13 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
 import { useToast } from "@/components/ui/Toast";
 import { HERO_WIREFRAME_URL } from "./assets";
 
 export function Hero() {
   const [vrm, setVrm] = useState("");
+  const router = useRouter();
   const { showToast } = useToast();
 
   function handleLookup(event: FormEvent<HTMLFormElement>) {
@@ -18,10 +20,7 @@ export function Hero() {
       );
       return;
     }
-    const target = document.getElementById("pricingSection");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
-    }
+    router.push("/checkout");
   }
 
   return (
@@ -62,9 +61,9 @@ export function Hero() {
           by Registration Number
         </h1>
         <p className="font-body-xl text-body-xl text-primary-fixed-dim max-w-2xl mb-space-2xl">
-          Instant mileage discrepancies, MOT history, accident write-off records
-          (Cat S/N/C/D), outstanding finance, stolen vehicle flags, and legal
-          status in seconds before you buy.
+          Mileage discrepancies, MOT history, accident write-off records (Cat
+          S/N/C/D), outstanding finance, stolen vehicle flags, and legal status
+          before you buy. Your report is emailed within 3–4 hours.
         </p>
         <div className="w-full max-w-2xl bg-surface-container-lowest p-space-sm rounded-xl shadow-xl">
           <form
@@ -140,7 +139,7 @@ export function Hero() {
             <span className="material-symbols-outlined text-tertiary-fixed text-[18px]">
               check_circle
             </span>
-            <span>Instant Live Audit</span>
+            <span>Report in 3–4 Hours</span>
           </div>
           <div className="flex items-center gap-space-2xs">
             <span className="material-symbols-outlined text-tertiary-fixed text-[18px]">

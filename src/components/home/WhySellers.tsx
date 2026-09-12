@@ -70,9 +70,9 @@ export function WhySellers() {
             Why Sellers Use AuthorizeCheck
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-sm mb-space-lg">
-            Transform tyre-kickers into eager buyers by proving honesty upfront.
-            A verified AuthorizeCheck certificate instills immediate buyer
-            confidence and removes friction from price negotiations.
+            Sellers purchase a vehicle check — not a report — to prove honesty
+            upfront. Your full report is emailed within 3–4 hours, so buyers
+            can review verified history before they visit.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
             {sellerBenefits.map((benefit) => (

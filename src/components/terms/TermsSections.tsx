@@ -27,7 +27,7 @@ export function TermsSections() {
             By accessing the website at{" "}
             <strong className="text-on-surface">authorizecheck.co.uk</strong> (the
             “Site”), inputting any United Kingdom Vehicle Registration Mark
-            (“VRM”), purchasing a Vehicle Audit Dossier, or creating an
+            (“VRM”), purchasing a vehicle check, or creating an
             enterprise API integration, you irrevocably agree to be legally
             bound by these Terms &amp; Conditions.
           </p>
@@ -138,8 +138,8 @@ export function TermsSections() {
             </div>
           </div>
           <p>
-            Delivery of reports occurs instantaneously via digital web dashboard
-            and optional permanent PDF download link dispatched to your
+            Delivery of reports occurs by email within 3–4 hours of purchasing
+            a vehicle check, as a downloadable PDF dispatched to your
             designated electronic mail address.
           </p>
         </div>
@@ -243,12 +243,12 @@ export function TermsSections() {
             </div>
           </div>
           <p>
-            Due to the instantaneous supply of bespoke algorithmic vehicle data,
-            pursuant to Regulation 37(1) of the Consumer Contracts Regulations
-            2013, you acknowledge and expressly request that the digital service
-            commences immediately upon confirmation of payment, thereby waiving
-            standard 14-day statutory cancellation rights for fully rendered
-            reports.
+            After you purchase a vehicle check, the compiled report is emailed
+            within 3–4 hours. Pursuant to Regulation 37(1) of the Consumer
+            Contracts Regulations 2013, you acknowledge that the digital service
+            commences upon confirmation of payment, thereby waiving standard
+            14-day statutory cancellation rights once the report has been
+            furnished.
           </p>
         </div>
       </section>
@@ -413,8 +413,8 @@ export function TermsSections() {
             exclusively to AuthorizeCheck Ltd.
           </p>
           <p>
-            Purchasing a report confers a non-exclusive, non-transferable
-            license to view, store, and present the report solely for the
+            Purchasing a vehicle check confers a non-exclusive, non-transferable
+            license to view, store, and present the resulting report solely for the
             personal evaluation or transaction of the specific motor vehicle
             detailed within. Commercial reproduction or syndication without
             written consent is strictly prohibited.
@@ -558,7 +558,8 @@ export function TermsSections() {
               Ready to run a vehicle audit?
             </span>
             <span className="font-body-sm text-body-sm text-on-surface-variant">
-              Instant full UK lookup with £40,000 protection guarantee.
+              Purchase a vehicle check. Report emailed within 3–4 hours. £40,000
+              protection guarantee.
             </span>
           </div>
         </div>

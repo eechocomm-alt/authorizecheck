@@ -5,6 +5,8 @@ import { FormEvent, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useToast } from "@/components/ui/Toast";
 
+const PAYPAL_PAYMENT_URL = "https://www.paypal.com/ncp/payment/KAQRZ2HTR97ML";
+
 const PLANS = [
   {
     id: "basic",
@@ -60,13 +62,7 @@ export function CheckoutForm() {
     }
 
     setSubmitting(true);
-    window.setTimeout(() => {
-      setSubmitting(false);
-      showToast(
-        `Order ready for ${selected.name} (${selected.price}). Redirecting to payment…`,
-        "success",
-      );
-    }, 700);
+    window.location.assign(PAYPAL_PAYMENT_URL);
   }
 
   return (
@@ -80,8 +76,8 @@ export function CheckoutForm() {
             Complete Your Order
           </h1>
           <p className="font-body-md text-body-md text-on-surface-variant mt-space-2xs">
-            Enter your details, confirm your package, and accept the purchase
-            terms to proceed to payment.
+            Enter your details, confirm your vehicle check, and accept the
+            purchase terms. Your report is emailed within 3–4 hours.
           </p>
         </div>
         <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center shrink-0">
@@ -190,10 +186,10 @@ export function CheckoutForm() {
               type="checkbox"
             />
             <span className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              I am purchasing a Vehicle Inspection Report from Check Vehicle.
-              The selected package will be delivered within the specified
-              timeframe using the provided payment method. I acknowledge that
-              once the product is delivered, I am not eligible for a refund.
+              I am purchasing a vehicle check from AuthorizeCheck. The full
+              report will be emailed within 3–4 hours using the provided
+              payment method. I acknowledge that once the report is delivered,
+              I am not eligible for a refund.
             </span>
           </label>
 

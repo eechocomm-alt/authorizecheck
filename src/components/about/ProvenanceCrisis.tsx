@@ -25,7 +25,8 @@ export function ProvenanceCrisis() {
             architects and former fraud intelligence analysts. We replaced
             antiquated gov-portal scrapers and predatory paid-report upsells with
             institutional-grade data ingestion, verifying every chassis across
-            80+ rigorous forensic points in under 4 seconds.
+            80+ rigorous forensic points. You purchase a vehicle check; the
+            compiled report is emailed within 3–4 hours.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-sm">
             <div className="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-2xs">

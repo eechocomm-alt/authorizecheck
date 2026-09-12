@@ -6,7 +6,7 @@ const faqs = [
   },
   {
     q: "How fast will I receive my vehicle report?",
-    a: "Instantly. Once your check is submitted, data aggregation completes in under 3 seconds. The interactive vehicle audit displays on your screen immediately, and a downloadable PDF copy is dispatched straight to your email address.",
+    a: "Your report is emailed within 3–4 hours of purchasing a vehicle check. Once payment is confirmed, we compile the vehicle audit and send a downloadable PDF to your email address.",
   },
   {
     q: "What if I only have the vehicle registration number?",

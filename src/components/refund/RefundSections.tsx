@@ -2,7 +2,7 @@ const eligibility = [
   {
     icon: "check_circle",
     title: "Technical Delivery Failure",
-    body: "If an internal gateway latency or cloud network disruption prevented your generated vehicle audit from loading on-screen or arriving in your designated email inbox within 30 minutes of purchase confirmation.",
+    body: "If an internal gateway latency or cloud network disruption prevented your generated vehicle audit from arriving in your designated email inbox within 3–4 hours of purchase confirmation.",
   },
   {
     icon: "content_copy",
@@ -32,7 +32,7 @@ const nonRefundable = [
   },
   {
     title: "Change of Mind After Report Generation",
-    body: "Under Regulation 37 of the Consumer Contracts Regulations 2013, by requesting instantaneous access to digital vehicle records, you expressly acknowledge the immediate execution of services and waive normal cancellation rights once data has been furnished.",
+    body: "Under Regulation 37 of the Consumer Contracts Regulations 2013, once your vehicle report has been furnished by email within the 3–4 hour delivery window, you expressly acknowledge that the digital service has been executed and waive normal cancellation rights.",
   },
   {
     title: "Third-Party Dealership Negotiation Outcomes",

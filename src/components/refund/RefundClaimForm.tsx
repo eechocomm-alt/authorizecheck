@@ -106,7 +106,7 @@ export function RefundClaimForm() {
                 Select qualifying category
               </option>
               <option value="report_not_received">
-                Technical: Report not delivered within 30 min
+                Technical: Report not delivered within 3–4 hours
               </option>
               <option value="duplicate_charge">
                 Billing: Duplicate billing detected

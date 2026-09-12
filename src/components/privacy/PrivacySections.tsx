@@ -153,8 +153,8 @@ export function PrivacySections() {
               </span>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
                 Generating and delivering comprehensive multi-point history
-                reports instantly to your digital portal and verified email
-                address.
+                reports to your verified email address within 3–4 hours of
+                purchasing a vehicle check.
               </span>
             </div>
           </div>

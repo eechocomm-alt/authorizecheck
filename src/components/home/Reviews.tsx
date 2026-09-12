@@ -16,7 +16,7 @@ const reviews = [
     plate: { text: "VW GOLF", className: "bg-[#FFD200] text-black" },
     savings: { text: "SAVED £11,000", className: "bg-tertiary-container text-tertiary-fixed" },
     title: "“Uncovered total loss hidden by seller”",
-    body: "Saved me from an £11,000 catastrophe. The seller claimed clean title, but AuthorizeCheck pulled archival Copart photos showing severe rear crumple and deployed curtain airbags in 3 seconds.",
+    body: "Saved me from an £11,000 catastrophe. The seller claimed clean title, but after I purchased a vehicle check, AuthorizeCheck pulled archival Copart photos showing severe rear crumple and deployed curtain airbags.",
     meta: { icon: "photo_camera", label: "Salvage Record #CP-849200", badge: "MIAFTR Direct", badgeClass: "text-on-tertiary-container" },
     author: { initials: "MT", name: "Marcus T.", sub: "Manchester • Verified Buyer", avatar: "bg-primary text-white" },
     when: "2 days ago",
@@ -55,10 +55,10 @@ const reviews = [
   {
     tag: { icon: "speed", label: "ROADSIDE SCAN", className: "bg-on-tertiary-container/10 text-on-tertiary-container" },
     plate: { text: "NISSAN QASHQAI", className: "bg-surface-container text-on-surface" },
-    savings: { text: "IN 10 SECONDS", className: "bg-tertiary-container text-tertiary-fixed" },
+    savings: { text: "IN 3–4 HOURS", className: "bg-tertiary-container text-tertiary-fixed" },
     title: "“Super clean interface right on my phone”",
-    body: "“Was standing in the seller's driveway when I typed in the plate on my phone. The PDF audit arrived in my inbox in 10 seconds. Super clean interface, easy to read on mobile, and completely reassuring.”",
-    meta: { icon: "smartphone", label: "Mobile Instant Dispatch", badge: "100% Insured", badgeClass: "text-on-tertiary-container" },
+    body: "“I purchased a vehicle check from my phone in the seller's driveway. The PDF report arrived in my inbox within 3–4 hours. Super clean interface, easy to read on mobile, and completely reassuring.”",
+    meta: { icon: "smartphone", label: "Mobile Check Purchase", badge: "100% Insured", badgeClass: "text-on-tertiary-container" },
     author: { initials: "ER", name: "Elena R.", sub: "Edinburgh • Roadside Check", avatar: "bg-surface-container text-on-surface" },
     when: "3 weeks ago",
   },
@@ -155,13 +155,13 @@ export function Reviews() {
             </div>
             <div className="flex flex-col items-center justify-center p-space-xs text-center pt-space-sm md:pt-0">
               <span className="font-display-hero text-[32px] font-black leading-none text-on-surface">
-                &lt;10s
+                3–4h
               </span>
               <span className="font-label-md text-label-md text-on-surface font-semibold mt-1">
-                Instant Dispatch
+                Report Delivery
               </span>
               <span className="font-body-sm text-body-sm text-on-surface-variant">
-                Mobile &amp; PDF report delivery
+                PDF emailed after your check
               </span>
             </div>
           </div>
